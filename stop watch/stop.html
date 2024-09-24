@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <h1 style="display: flex;justify-content: center;"><script>document.write(new Date())</script></h1>
+
+    <h1 id="output" style="display: flex;justify-content: center;"  ></h1>
+
+    <div style="display: flex;justify-content: space-evenly;">
+        <h1>minutes</h1>
+        <h1>seconds</h1>
+        <h1>mili seconds</h1>
+    </div>
+
+    <div style="display: flex;justify-content: space-evenly;">
+        <h1 id="min">0</h1>
+        <h1 id="sec">0</h1>
+        <h1 id="mili">0</h1>
+    </div>
+
+    <div style="display: flex;justify-content: space-evenly;">
+      <button id="start" onclick="start()">start</button>
+      <button id="stop" onclick="stop()">stop</button>
+      <button id="reset" onclick="reset()">reset</button>
+    </div>
+
+
+    <script src="wtach.js"></script>
+</body>
+</html>
